@@ -1,0 +1,31 @@
+.header {
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+    padding: 4.75rem 0;
+}
+
+.header img {
+    height: 2.5rem;
+}
+
+.header .logoContainer {
+    display: flex;
+    height: 3rem;
+    align-items: center;
+}
+
+.header .logoContainer > strong {
+    display: block;
+    font-size: 3rem;
+    font-weight: 1000;
+    padding-left: 0.5rem;
+}
+
+.metade_esquerda {
+    color: var(--blue);
+}
+
+.metade_direita {
+    color: var(--purple-dark)
+}

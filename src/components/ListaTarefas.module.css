@@ -1,0 +1,60 @@
+.lista_tarefas_wrapper {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.lista_tarefas_wrapper header {
+    margin-top: 5rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.lista_tarefas_wrapper header .tarefas_criadas {
+    color: var(--blue);
+    font-weight: bold;
+}
+
+.lista_tarefas_wrapper header .tarefas_concluidas {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.lista_tarefas_wrapper header .contador {
+    margin-left: 0.5rem;
+    color: var(--gray-200);
+    background-color: var(--gray-400);
+    font-weight: bold;
+    padding: 0.05rem 0.5rem;
+    border-radius: 10px;
+}
+
+.lista_vazia {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    border-top: solid;
+    border-width: 1px;
+    border-color: var(--gray-400);
+    border-radius: 8px;
+    padding-top: 4rem;
+}
+
+.lista_vazia strong {
+    margin-top: 1.5rem;
+}
+
+
+.lista_tarefas {
+    margin-top: 1.5rem;
+}
+
+
+.hidden {
+    display: none;
+}
